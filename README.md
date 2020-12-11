@@ -8,9 +8,9 @@ This is a CLI app using node and MySQL to generate employee data for different d
 
 User will need to install the following to use the application:
 
-`npm init -y` for package.json creation
-`npm install inquirer` for inquirer dependency
-`npm install mysql` for MySQL dependency
+- `npm init -y` for package.json creation
+- `npm install inquirer` for inquirer dependency
+- `npm install mysql` for MySQL dependency
 
 ## Using the Application
 
