@@ -9,7 +9,6 @@ USE cms;
 CREATE TABLE department (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(30),
-  PRIMARY KEY (id)
 );
 
 /* Create role table that auto increments and pulls data from department table using foreign key */
@@ -18,7 +17,6 @@ CREATE TABLE position (
   title VARCHAR(30) NOT NULL,
   salary DECIMAL NOT NULL,
   department_id int,
-  PRIMARY KEY (id),
   FOREIGN KEY (department_id) REFERENCES department(id)
 );
 
@@ -30,7 +28,6 @@ CREATE TABLE employee (
   last_name VARCHAR(30) NOT NULL,
   position_id int,
   manager_id int,
-  PRIMARY KEY (id),
   FOREIGN KEY (position_id) REFERENCES position(id),
   FOREIGN KEY (manager_id) REFERENCES employee(id)
 );
