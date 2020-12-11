@@ -17,7 +17,7 @@ User will need to install the following to use the application:
 In the command line, user will run `node server.js` to start the application.
 The user will then use the up and down arrow keys to select their option.
 
-![App](assets/screen-shots/1-App-Commands.png?raw=true)
+![App](assets/1-App-Commands.png?raw=true)
 
 User will then follow the prompts for their selection and the information will be added to the database.
 Once the user is done, they will need to run the `Ctrl+C` command to turn off their server.
